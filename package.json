@@ -1,0 +1,33 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.1",
+  "description": "This is set of math games",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "puzzle",
+    "math",
+    "game"
+  ],
+  "author": "Yuriy Shulga",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.0.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.9.0"
+  }
+}
