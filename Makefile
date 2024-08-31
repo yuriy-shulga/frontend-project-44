@@ -4,10 +4,10 @@ install:
 brain-games:
 	node bin/brain-games.js
 
-status:
+status: lint
 	git status
 
-lint: status
+lint: 
 	npx eslint . --fix
 
 
