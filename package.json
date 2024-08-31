@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "This is set of math games",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "main": "index.js",
   "scripts": {
