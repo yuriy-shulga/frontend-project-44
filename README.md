@@ -36,4 +36,14 @@ brain-calc
 
 _What is the result of the expression?_
 
-[![asciicast](hhttps://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd.svg)](https://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd)
+[![asciicast](https://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd.svg)](https://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd)
+
+## Brain-calc
+
+```
+brain-gcd
+```
+
+_Find the greatest common divisor of given numbers._
+
+[![asciicast](https://asciinema.org/a/lYKgrmlU0DBKud5eSBmdjPDDB.svg)](https://asciinema.org/a/lYKgrmlU0DBKud5eSBmdjPDDB)
