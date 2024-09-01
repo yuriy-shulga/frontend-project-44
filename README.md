@@ -27,3 +27,13 @@ brain-even
 _Answer "yes" if the number is even, otherwise answer "no"._
 
 [![asciicast](https://asciinema.org/a/hFo1mKPM7jOnbhy0bMEIf3mTu.svg)](https://asciinema.org/a/hFo1mKPM7jOnbhy0bMEIf3mTu)
+
+## Brain-calc
+
+```
+brain-calc
+```
+
+_What is the result of the expression?_
+
+[![asciicast](hhttps://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd.svg)](https://asciinema.org/a/uqo3aW5q4E22c7DVJYUNqXjsd)
