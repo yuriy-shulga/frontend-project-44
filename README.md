@@ -57,3 +57,13 @@ brain-progression
 _What number is missing in the progression?_
 
 [![asciicast](https://asciinema.org/a/ougBEYrg105cMB46sBDbPt5E1.svg)](https://asciinema.org/a/ougBEYrg105cMB46sBDbPt5E1)
+
+## Brain-prime
+
+```
+brain-prime
+```
+
+_Answer "yes" if given number is prime. Otherwise answer "no"._
+
+[![asciicast](https://asciinema.org/a/K2dsAGXUkEYoj8TlJqxSxVjKZ.svg)](https://asciinema.org/a/K2dsAGXUkEYoj8TlJqxSxVjKZ)
