@@ -47,3 +47,13 @@ brain-gcd
 _Find the greatest common divisor of given numbers._
 
 [![asciicast](https://asciinema.org/a/lYKgrmlU0DBKud5eSBmdjPDDB.svg)](https://asciinema.org/a/lYKgrmlU0DBKud5eSBmdjPDDB)
+
+## Brain-progression
+
+```
+brain-progression
+```
+
+_What number is missing in the progression?_
+
+[![asciicast](https://asciinema.org/a/ougBEYrg105cMB46sBDbPt5E1.svg)](https://asciinema.org/a/ougBEYrg105cMB46sBDbPt5E1)
