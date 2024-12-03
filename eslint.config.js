@@ -5,32 +5,12 @@ import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 import pluginJs from '@eslint/js';
 
-// mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
   baseDirectory: __dirname,
   recommendedConfig: pluginJs.configs.recommended,
 });
-
-// export default [
-//   {
-//     ignores: ['/node_modules'],
-//     languageOptions: {
-//       globals: globals.node,
-//       parseOptions: {
-//         ecmaVersion: 'latest',
-//         sourceType: 'module',
-//       },
-//     },
-//     ...compat.extends('airbnb'),
-//     {
-//       rules: {
-//         ignores: ['/node_modules'],
-//       }
-//     },
-//   },
-// ];
 
 export default [
   {
@@ -40,8 +20,6 @@ export default [
         ...globals.jest,
       },
       parserOptions: {
-        // Eslint doesn't supply ecmaVersion in `parser.js` `context.parserOptions`
-        // This is required to avoid ecmaVersion < 2015 error or 'import' / 'export' error
         ecmaVersion: 'latest',
         sourceType: 'module',
       },
